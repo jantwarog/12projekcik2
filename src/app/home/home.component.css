@@ -1,0 +1,58 @@
+.text-center {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    word-wrap: break-word;
+    justify-content: center;
+    display: block
+}
+
+
+
+.news {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%
+}
+
+.news-opis{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    position: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    white-space: nowrap;
+}
+
+.dolna{
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.opis-filmu{
+    display: block;
+    font-size: 12px;
+    text-justify: auto;
+    justify-content: center;
+    word-wrap: break-word;
+
+}

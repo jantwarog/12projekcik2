@@ -7,9 +7,10 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./app.component.css'],
   providers: [ NgbCarouselConfig ]
 })
+
 export class AppComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error("Method not implemented.");
+    // throw new Error("Method not implemented.");
   }
 
   constructor(config: NgbCarouselConfig) {

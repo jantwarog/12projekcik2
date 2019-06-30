@@ -1,3 +1,15 @@
-<p>
-  contact works!
-</p>
+<br>
+<table>
+  <tr>
+    <td>
+      <h1>GDZIE NAS ZNAJDZIESZ?</h1><br>
+      <p id="adres"><strong>Zenith Images sp. z o.o.</strong><br><br>ul.Matejki 61<br>60-771 Poznań<br></p>
+      <app-contact-form></app-contact-form>
+    </td>
+    <td id="mapa">
+      <agm-map [zoom]="zoom" [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
+        <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+      </agm-map>
+    </td>
+  </tr>
+</table>

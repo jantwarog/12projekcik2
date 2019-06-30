@@ -1,0 +1,86 @@
+p {
+    font-family: 'Open Sans', sans-serif
+  }
+  
+  .caly_div{
+    align-content: center;
+    align-items: center;
+    left:50%;
+    right:50%;
+    margin-left:100px
+  }
+  
+  .container{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    position: relative
+  }
+  
+  
+  .galeryjka {
+    width: 10%;
+    height: 265px;
+    min-width: 400px;
+    position: relative;
+  } 
+  
+  
+   * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* relevant styles */
+  .img__wrap {
+    position: relative;
+    height: 265px;
+    max-width:400px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 0 0 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .img__description {
+    font-size:24px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.42);
+    color:rgba(13, 12, 26, 0.8);
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .4s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .img_img{
+    width: 10%;
+    height: 265px;
+    min-width: 400px;
+    position: relative;
+     align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }

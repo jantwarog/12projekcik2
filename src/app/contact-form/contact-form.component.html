@@ -1,0 +1,21 @@
+<form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+    <h1>MASZ PYTANIA? NAPISZ DO NAS.<br><br></h1>
+      <input 
+      required 
+      [(ngModel)]="model.name" 
+      name="name" 
+      placeholder="Imię" /> 
+      <input 
+      name="email" 
+      required
+      [(ngModel)]="model.email" 
+      placeholder="E-mail" />
+      <br>
+      <br>
+      <textarea
+      [(ngModel)]="model.comment"  
+      name="comment" 
+      placeholder="Napisz do nas">
+  </textarea><br>
+      <button type="submit">Wyślij</button>
+    </form>

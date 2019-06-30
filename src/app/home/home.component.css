@@ -1,3 +1,21 @@
+
+div{
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: gold;
+}
+
+
 .text-center {
     text-align: center;
     justify-content: center;
@@ -12,12 +30,15 @@ h3 {
 }
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size:18px
 }
 
 table {
     word-wrap: break-word;
     justify-content: center;
-    display: block
+    display: block;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
 }
 
 
@@ -32,6 +53,16 @@ table {
     width: 20%
 }
 
+.news-photo{
+    max-width: 950px;
+    display: block;
+    min-width: 350px
+}
+
+.news-photo:hover {
+    opacity: 0.7;
+}
+
 .news-opis{
     margin-top: auto;
     margin-bottom: auto;
@@ -41,6 +72,8 @@ table {
     margin-right: auto;
     width: 95%;
     white-space: nowrap;
+    max-width: 950px;
+    min-width: 350px;
 }
 
 .dolna{
@@ -49,10 +82,18 @@ table {
 }
 
 .opis-filmu{
-    display: block;
-    font-size: 12px;
+    display: inline-block;
+    font-size: 18px;
     text-justify: auto;
     justify-content: center;
-    word-wrap: break-word;
+    word-wrap: break-all;
+    max-width:750px
+
+}
+scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 
 }
